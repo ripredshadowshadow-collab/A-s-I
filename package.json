@@ -2,17 +2,17 @@
   "name": "gods-eye-view",
   "private": true,
   "version": "0.1.1",
-  "description": "A real-time intelligence console for planet Earth \u2014 photorealistic 3D globe, live aircraft/ships/satellites/earthquakes/CCTV, and hands-free voice control. Runs in a browser.",
+  "description": "A real-time intelligence console for planet Earth — photorealistic 3D globe, live aircraft/ships/satellites/earthquakes/CCTV, and hands-free voice control. Runs in a browser.",
   "type": "module",
   "license": "MIT",
   "author": "Bilawal Sidhu",
-  "homepage": "https://github.com/bilawalsidhu/gods-eye-view#readme",
+  "homepage": "https://github.com/ripredshadowshadow-collab/A-s-I#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view.git"
+    "url": "https://github.com/ripredshadowshadow-collab/A-s-I.git"
   },
   "bugs": {
-    "url": "https://github.com/bilawalsidhu/gods-eye-view/issues"
+    "url": "https://github.com/ripredshadowshadow-collab/A-s-I/issues"
   },
   "engines": {
     "node": ">=24.14.0 <25 || >=26 <27"
@@ -67,57 +67,21 @@
     "./infrastructure/lod": "./src/data/localGeojsonLod.js",
     "./application": "./src/app/application.js",
     "./application/viewer": "./src/app/viewer.js",
-    "./build/vite": {
-      "node": "./build/vite.js"
-    },
-    "./server/providers/live": {
-      "node": "./server/providers/live.js"
-    },
-    "./sources/adsb-lol": "./src/data/adsbLolFallback.js",
-    "./server/providers/places": {
-      "node": "./server/providers/places.js"
-    },
-    "./sources/places": "./src/data/placeProviderPayloads.js",
-    "./server/providers/space": {
-      "node": "./server/providers/space.js"
-    },
-    "./sources/space": "./src/data/spaceProviderRequests.js",
-    "./server/providers/terrain": {
-      "node": "./server/providers/terrain.js"
-    },
-    "./sources/terrain": "./src/data/terrainHeightsProxy.js",
-    "./server/providers/traffic": {
-      "node": "./server/providers/traffic.js"
-    },
-    "./sources/traffic": "./src/data/tomtomTiles.js",
-    "./server/providers/firms": {
-      "node": "./server/providers/firms.js"
-    },
-    "./server/providers/gbfs": {
-      "node": "./server/providers/gbfs.js"
-    },
-    "./sources/gbfs": "./src/data/gbfsSource.js",
-    "./server/providers/cctv": {
-      "node": "./server/providers/cctv.js"
-    },
-    "./server/providers/radio": {
-      "node": "./server/providers/radio.js"
-    },
-    "./server/providers/overpass": {
-      "node": "./server/providers/overpass.js"
-    },
-    "./server/providers/military-installations": {
-      "node": "./server/providers/military-installations.js"
-    },
-    "./server/providers/regional": {
-      "node": "./server/providers/regional.js"
-    },
-    "./server/providers/openai": {
-      "node": "./server/providers/openai.js"
-    },
-    "./server/standalone/key-setup": {
-      "node": "./server/standalone/key-setup.js"
-    },
+    "./build/vite": { "node": "./build/vite.js" },
+    "./server/providers/live": { "node": "./server/providers/live.js" },
+    "./server/providers/places": { "node": "./server/providers/places.js" },
+    "./server/providers/space": { "node": "./server/providers/space.js" },
+    "./server/providers/terrain": { "node": "./server/providers/terrain.js" },
+    "./server/providers/traffic": { "node": "./server/providers/traffic.js" },
+    "./server/providers/firms": { "node": "./server/providers/firms.js" },
+    "./server/providers/gbfs": { "node": "./server/providers/gbfs.js" },
+    "./server/providers/cctv": { "node": "./server/providers/cctv.js" },
+    "./server/providers/radio": { "node": "./server/providers/radio.js" },
+    "./server/providers/overpass": { "node": "./server/providers/overpass.js" },
+    "./server/providers/military-installations": { "node": "./server/providers/military-installations.js" },
+    "./server/providers/regional": { "node": "./server/providers/regional.js" },
+    "./server/providers/openai": { "node": "./server/providers/openai.js" },
+    "./server/standalone/key-setup": { "node": "./server/standalone/key-setup.js" },
     "./search": "./src/search/index.js",
     "./ui/panels": "./src/ui/panelDisclosure.js",
     "./ui/surfaces": "./src/ui/surfaceKeyboard.js",
@@ -188,8 +152,6 @@
     "./voice/actions": "./src/voice/gevActions.js",
     "./annotations": "./src/annotations/index.js",
     "./context": "./src/data/contextStore.js",
-    "./build/html": {
-      "node": "./build/application-html.js"
-    }
+    "./build/html": { "node": "./build/application-html.js" }
   }
 }
